@@ -99,3 +99,13 @@ let Equal = ()=>{
         display = "";
     }
 }
+
+let KurungKiri = ()=>{
+    display += "(";
+    document.getElementById("hasil").innerHTML = display;
+}
+
+let KurungKanan = ()=>{
+    display += ")";
+    document.getElementById("hasil").innerHTML = display;
+}
